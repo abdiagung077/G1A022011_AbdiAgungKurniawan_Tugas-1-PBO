@@ -7,21 +7,25 @@ Jawab :
   Functional programming (FP) dan Object-oriented programming (OOP) adalah paradigma pemrograman yang berbeda. Berikut adalah perbedaan utama antara FP dan OOP dalam bahasa pemrograman Python:
 
 ==> Pendekatan pemrograman:
+
 FP menggunakan pendekatan deklaratif, yang berfokus pada "apa" yang ingin dilakukan oleh program, sedangkan OOP menggunakan pendekatan imperatif, yang berfokus pada "bagaimana" program harus melakukannya.
 
 ==> Fungsi dan objek:
+
 FP berfokus pada fungsi, sedangkan OOP berfokus pada objek. Dalam FP, fungsi dianggap sebagai unit dasar pemrograman, sedangkan dalam OOP, objek dianggap sebagai unit dasar.
 
 ==> Mutabilitas:
+
 Dalam FP, data bersifat immutable (tidak dapat diubah), sehingga tidak ada perubahan yang dilakukan pada data asli. Sedangkan dalam OOP, objek bersifat mutable (dapat diubah), sehingga objek dapat diubah atau dimodifikasi.
   
 ==> Ketergantungan:
-FP berusaha untuk menghindari ketergantungan pada state (keadaan) global dan menghindari efek samping (side effect) dalam program. Sedangkan dalam OOP, objek dapat bergantung pada objek lain dan mengakses data dari objek lain.
 
+FP berusaha untuk menghindari ketergantungan pada state (keadaan) global dan menghindari efek samping (side effect) dalam program. Sedangkan dalam OOP, objek dapat bergantung pada objek lain dan mengakses data dari objek lain.
 
 ==> Inheritance (Pewarisan):
 
-  OOP memungkinkan inheritance (pewarisan), di mana sebuah kelas dapat mewarisi atribut dan method dari kelas lain. Sedangkan dalam FP, konsep inheritance tidak diterapkan.
+OOP memungkinkan inheritance (pewarisan), di mana sebuah kelas dapat mewarisi atribut dan method dari kelas lain. Sedangkan dalam FP, konsep inheritance tidak diterapkan.
+
 
 
 2. berikan apa saja contoh pengimplementasian dari oop
@@ -40,5 +44,3 @@ Kita dapat membuat kelas baru yang mewarisi atribut dan method dari kelas yang s
 Kita dapat menggunakan polimorfisme untuk membuat objek-objek dengan perilaku yang berbeda-beda. Misalnya, kelas Animal dengan method speak(), dan dua kelas turunan, yaitu Dog dan Cat, yang mengimplementasikan method speak() dengan cara yang berbeda.
 
   Dengan menggunakan OOP, kita dapat memudahkan pemrograman dan pengembangan aplikasi, karena dapat memecah masalah besar menjadi bagian-bagian yang lebih kecil dan terorganisir, serta memungkinkan kita untuk membuat kode yang dapat digunakan kembali dan mudah dipelihara. Selain itu, OOP juga dapat mempercepat proses pengembangan dan meningkatkan kualitas kode.
-
-
